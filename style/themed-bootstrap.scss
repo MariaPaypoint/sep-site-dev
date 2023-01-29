@@ -1,0 +1,45 @@
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/_variables.scss"; 
+
+$custom-colors: (
+  "primary": #f97316,
+); 
+
+// "primary": #f77f00,
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap"; 
+
+.btn {
+  padding-bottom: 10px;
+}
+.btn-primary {
+  color: white!important;
+}
+.btn-link {
+  color: $orange;
+  text-decoration: none;
+
+  &:active, &:hover {
+    color: $orange-400;
+  }
+}
+.nav_icon {
+  height: 1.3rem;
+  filter: invert(45%);
+
+  &:active, &:hover {
+    filter: invert(20%);
+  }
+}
+.step_line {
+  color: $cyan-500;
+}
+.orange-500 {
+  color: $orange-500;
+}
+.gray-500 {
+  color: $gray-500;
+}
