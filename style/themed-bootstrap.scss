@@ -5,9 +5,6 @@
 $custom-colors: (
   "primary": #f97316,
 ); 
-
-// "primary": #f77f00,
-
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../node_modules/bootstrap/scss/bootstrap"; 
@@ -43,3 +40,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .gray-500 {
   color: $gray-500;
 }
+/*
+.blue_divider {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+*/

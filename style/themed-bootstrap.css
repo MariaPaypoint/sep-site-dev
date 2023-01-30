@@ -10967,4 +10967,11 @@ textarea.form-control-lg {
 
 .gray-500 {
   color: #adb5bd;
-}/*# sourceMappingURL=themed-bootstrap.css.map */
+}
+
+/*
+.blue_divider {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+*//*# sourceMappingURL=themed-bootstrap.css.map */
