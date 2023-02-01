@@ -46,3 +46,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   border-left: 1px solid rgba(255, 255, 255, 0.3);
 }
 */
+.motive_container {
+  background-image: url(../img/illustrations/quote.svg), url(../img/illustrations/quote2.svg);  
+  background-repeat: no-repeat; 
+  background-position: top 2rem left, bottom 2rem right;
+}
+.quote_small {
+  background-image: url(../img/illustrations/quote_small.svg);
+  background-repeat: no-repeat; 
+  background-position: top 1rem left 1rem;
+}
