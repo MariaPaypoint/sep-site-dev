@@ -9,6 +9,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../node_modules/bootstrap/scss/bootstrap"; 
 
+.orange_link {
+  color: $orange-500!important;
+  text-decoration: none!important;
+}
+
 .btn {
   padding-bottom: 10px;
 }
