@@ -17,4 +17,12 @@ services:
     environment:
       - NGINX_HOST=christedu.ru
     restart: always
-    
+    networks:
+      docker_cepsite_net:
+
+networks:
+  docker_cepsite_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.16.224.0/24"
